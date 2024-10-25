@@ -1,0 +1,9 @@
+{
+  "name": "pn532-hsu-esp32",
+  "description": "High Speed Uart - PN532 NFC/RFID - Esp32",
+  "keywords": "pn532,esp32,hsu,uart,elechouse",
+  "build": {
+    "flags": ["-I inc", "-I hsu/include"],
+    "src_filter": ["+inc", "+hsu"]
+  }
+}
